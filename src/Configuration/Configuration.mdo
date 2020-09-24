@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d30e2da1-e9f2-42dc-a055-7cefb474bc64">
+  <name>Модернизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модернизация</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="45b79670-f1f8-41aa-a162-f08953d4d300"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="78135e9d-1709-44dc-8007-c52aecb2d02c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f0527e6f-92e8-4d5c-9160-3ca03a05afca"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6f5143d1-045f-4c14-91fb-0fcd1d9dd72d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="58f6481d-09b3-43cd-9817-91164e5dd2d0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="67dcb4a2-fefe-4856-8dd8-72bcc0893cd6"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_Модерн</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="85b23ad8-b174-4d20-a548-c613608a7213" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Каршаринг</subsystems>
+  <commonPictures>CommonPicture.ВыборОКВЭДТранспортныеУслуги</commonPictures>
+  <commonPictures>CommonPicture.Расш1_МодернОбщаяКартинка1</commonPictures>
+  <commonModules>CommonModule.БухгалтерскийУчетПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВариантыПриложений</commonModules>
+  <constants>Constant.ВестиУчетПоПодразделениям</constants>
+  <catalogs>Catalog.Автомобили</catalogs>
+  <catalogs>Catalog.НастройкиПодключения</catalogs>
+  <documents>Document.ЗаказыCars7</documents>
+  <reports>Report.АнализаФинансовогоРезультатаКомпании</reports>
+  <accumulationRegisters>AccumulationRegister.ЗаказыАвто</accumulationRegisters>
+</mdclass:Configuration>

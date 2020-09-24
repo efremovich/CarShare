@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dccfe1e-a3b1-44f6-875c-f5079d07c87c">
+  <producedTypes>
+    <objectType typeId="17d5e922-c656-49c1-b77f-f62ad258d24a" valueTypeId="d764d361-cfb2-4d1c-85a8-0941d18ab628"/>
+    <refType typeId="fa53e0c0-8b38-41f2-8a8c-fc5ee2e124f1" valueTypeId="29436008-bda8-4b8f-a27d-67f9ee4c6ea2"/>
+    <selectionType typeId="dd8f4377-bbea-4384-908e-81e458b9237b" valueTypeId="63c3ab2c-bd3d-4f11-935e-d596000e69c1"/>
+    <listType typeId="e8c63eab-4e0f-4cdd-9d0f-578793da8750" valueTypeId="04248b10-4691-4c22-9429-7d5c358eca6b"/>
+    <managerType typeId="0c70a997-31e8-47b2-8dfb-545ae9bf524a" valueTypeId="e85e2e6b-437a-4204-93a2-717a66d3b6bd"/>
+  </producedTypes>
+  <name>НастройкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиПодключения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиПодключения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.НастройкиПодключения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="946901de-a643-403d-b477-d50ef36a9646">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e2743c0-01cc-4456-9694-741f860613b8">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cb60f286-8426-4fe2-ab5f-7d2f594c42c2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

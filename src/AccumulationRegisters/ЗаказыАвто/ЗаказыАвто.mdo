@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9cb4d72-1230-4173-8e56-6024657610c9">
+  <producedTypes>
+    <selectionType typeId="fa16f3b6-2398-443f-afe5-5f27b84da6e1" valueTypeId="c2909ea7-ebc7-44e1-9e09-0b1cdf09e30f"/>
+    <listType typeId="a2de435d-b843-4147-b5b9-a0eb050e6441" valueTypeId="da27760d-8d1d-480b-860c-465d602b36ba"/>
+    <managerType typeId="1543d08a-0549-41a0-9f66-b85108dd6b72" valueTypeId="bc86fd42-1802-441e-a49c-19f060d083c3"/>
+    <recordSetType typeId="5775253e-f048-472e-afa7-bd4ab7b7362e" valueTypeId="348d6042-29c0-4483-90e6-93c359d6c6b6"/>
+    <recordKeyType typeId="1a2b524f-6031-4dac-9215-c97caf4e1653" valueTypeId="769ad88f-72ba-49d9-991d-d64d7001f776"/>
+    <recordType typeId="39f3027d-f830-4704-8568-2d99573b0c1b" valueTypeId="13d3f554-192b-4331-a501-d3ba5f7b824d"/>
+  </producedTypes>
+  <name>ЗаказыАвто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы авто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccumulationRegister>

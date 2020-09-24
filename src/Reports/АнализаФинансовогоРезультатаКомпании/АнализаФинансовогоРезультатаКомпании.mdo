@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbae6f25-9f5b-4c75-b54e-8b81e88118b9">
+  <producedTypes>
+    <objectType typeId="49a263b8-8566-4abc-9f7d-5068b8987079" valueTypeId="b819560f-ab1f-4ec2-a0a7-2c4ab5cc808f"/>
+    <managerType typeId="ee84b847-d317-45ac-91a1-6583bc75396b" valueTypeId="b90c35ec-3353-4aa5-901c-0109a72d355a"/>
+  </producedTypes>
+  <name>АнализаФинансовогоРезультатаКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализа финансового результата компании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализаФинансовогоРезультатаКомпании.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4bca78ce-8db6-4924-8cf3-e8aab8d0f5af">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
